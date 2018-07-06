@@ -14,6 +14,16 @@ public class SheetMusicTest {
         sheetMusic= new SheetMusic(20.50, 30.50, GroupType.BRASSWIND, "Blackbird" );
     }
 
+    @Test
+    public void canGetSongName(){
+        assertEquals("Blackbird", sheetMusic.getSongName());
+    }
+
+    @Test
+    public void canSetSongName(){
+        sheetMusic.setSongName("BlaBla Blacksheep");
+        assertEquals("BlaBla Blacksheep", sheetMusic.getSongName());
+    }
 
     @Test
     public void canGetGroupType() {
