@@ -62,7 +62,8 @@ public class ShopTest {
     @Test
     public void canGetPotentialProfit(){
         shop.addStock(sheetMusic);
-        assertEquals(10, shop.getPotentialProfit(), 0.01);
+        shop.addStock(guitar);
+        assertEquals(20, shop.getPotentialProfit(), 0.01);
     }
 
 
