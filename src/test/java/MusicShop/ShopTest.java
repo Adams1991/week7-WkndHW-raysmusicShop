@@ -66,6 +66,13 @@ public class ShopTest {
         assertEquals(20, shop.getPotentialProfit(), 0.01);
     }
 
+    @Test
+    public void tillIncreasesWhenStockRemoved(){
+        shop.addStock(sheetMusic);
+        shop.removeStock(sheetMusic);
+        assertEquals(320, shop.getTill(), 0.01);
+    }
+
 
 
 }
