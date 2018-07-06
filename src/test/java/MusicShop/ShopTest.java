@@ -25,5 +25,6 @@ public class ShopTest {
 
     @Test
     public void canGetTill() {
+        assertEquals(300, shop.getTill(), 0.01);
     }
 }
