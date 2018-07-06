@@ -32,4 +32,12 @@ public class ShopTest {
     public void canGetStockAmount(){
         assertEquals(0, shop.getStockAmount());
     }
+
+    @Test
+    public void canAddStock__instrument(){
+        shop.addStock(guitar);
+        assertEquals(1, shop.getStockAmount());
+    }
+
+
 }
