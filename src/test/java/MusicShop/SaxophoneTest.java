@@ -68,10 +68,14 @@ public class SaxophoneTest {
 
     @Test
     public void canSetCostPrice() {
+        saxophone.setCostPrice(40.00);
+        assertEquals(40.00, saxophone.getCostPrice(), 0.01);
     }
 
     @Test
     public void canSetSellPrice() {
+        saxophone.setSellPrice(40.00);
+        assertEquals(40.00, saxophone.getSellPrice(), 0.01);
     }
 
 
