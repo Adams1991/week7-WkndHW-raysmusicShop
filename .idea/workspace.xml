@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd21ab13-704a-4eec-8f5b-05184e3d7dc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Shop.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="502">
+              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="e#568#569#0" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
@@ -655,9 +654,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 13h 56m 34s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 14h 49m 24s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
@@ -685,6 +681,9 @@
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 26m 04s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 28m 51s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -692,7 +691,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1009,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="502">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
             <element signature="e#568#569#0" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />

@@ -39,5 +39,11 @@ public class ShopTest {
         assertEquals(1, shop.getStockAmount());
     }
 
+    @Test
+    public void canAddStock__accessory(){
+        shop.addStock(sheetMusic);
+        assertEquals(1, shop.getStockAmount());
+    }
+
 
 }
