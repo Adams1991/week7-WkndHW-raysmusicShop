@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd21ab13-704a-4eec-8f5b-05184e3d7dc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/GroupType.java" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/GroupType.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MusicShop/SaxophoneTest.java" afterPath="$PROJECT_DIR$/src/test/java/MusicShop/SaxophoneTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="SaxophoneTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/SaxophoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="277">
+              <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
               <folding>
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -57,6 +56,12 @@
                 <element signature="e#771#772#0" expanded="true" />
                 <element signature="e#818#819#0" expanded="true" />
                 <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1602#1603#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -704,6 +709,9 @@
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 13h 45m 17s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 13h 46m 03s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -874,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/SaxophoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="277">
+          <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -887,6 +895,12 @@
             <element signature="e#771#772#0" expanded="true" />
             <element signature="e#818#819#0" expanded="true" />
             <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
           </folding>
         </state>
       </provider>

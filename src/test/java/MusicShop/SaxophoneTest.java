@@ -54,15 +54,16 @@ public class SaxophoneTest {
     @Test
     public void canCalculateMarkup() {
         assertEquals(10.00, saxophone.calculateMarkup(), 0.01);
-
     }
 
     @Test
     public void canGetCostPrice() {
+        assertEquals(20.50, saxophone.getCostPrice(), 0.01);
     }
 
     @Test
     public void canGetSellPrice() {
+        assertEquals(30.50, saxophone.getSellPrice(), 0.01);
     }
 
     @Test
