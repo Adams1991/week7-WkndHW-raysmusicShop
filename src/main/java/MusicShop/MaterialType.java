@@ -1,3 +1,5 @@
+package MusicShop;
+
 public enum MaterialType {
 
     WOOD,
