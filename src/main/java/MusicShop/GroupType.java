@@ -4,7 +4,7 @@ public enum GroupType {
 
     STRING,
     WOODWIND,
-    BRASS,
+    BRASSWIND,
     PERCUSSION;
 
 }

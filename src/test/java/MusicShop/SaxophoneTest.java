@@ -11,7 +11,7 @@ public class SaxophoneTest {
 
     @Before
     public void setUp(){
-         saxophone= new Saxophone(20.50, 30.50, MaterialType.BRASS, GroupType.BRASS, "Alto" );
+         saxophone= new Saxophone(20.50, 30.50, MaterialType.BRASS, GroupType.BRASSWIND, "Alto" );
     }
 
     @Test
@@ -36,18 +36,25 @@ public class SaxophoneTest {
 
     @Test
     public void canGetGroupType() {
+        assertEquals(GroupType.BRASSWIND, saxophone.getGroupType());
     }
 
     @Test
     public void canSetGroupType() {
+        saxophone.setGroupType(GroupType.PERCUSSION);
+        assertEquals(GroupType.PERCUSSION, saxophone.getGroupType());
     }
 
     @Test
     public void canSetMaterialType() {
+        saxophone.setMaterialType(MaterialType.NICKEL);
+        assertEquals(MaterialType.NICKEL, saxophone.getMaterialType());
     }
 
     @Test
     public void canCalculateMarkup() {
+        assertEquals(10.00, saxophone.calculateMarkup(), 0.01);
+
     }
 
     @Test
