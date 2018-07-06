@@ -26,4 +26,17 @@ public class Shop {
     public void addStock(ISell item) {
         stock.add(item);
     }
+
+    public void removeStock(ISell item) {
+        stock.remove(item);
+    }
+
+
+    public double getPotentialProfit() {
+        double potentialProfit = 0;
+        for (ISell item : stock ){
+            potentialProfit += item.calculateMarkup();
+        }
+        return potentialProfit;
+    }
 }

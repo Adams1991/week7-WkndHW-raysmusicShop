@@ -45,5 +45,26 @@ public class ShopTest {
         assertEquals(1, shop.getStockAmount());
     }
 
+    @Test
+    public void canRemoveStock__instrument(){
+        shop.addStock(guitar);
+        shop.removeStock(guitar);
+        assertEquals(0, shop.getStockAmount());
+    }
+
+    @Test
+    public void canRemoveStock__accessory(){
+        shop.addStock(sheetMusic);
+        shop.removeStock(sheetMusic);
+        assertEquals(0, shop.getStockAmount());
+    }
+
+    @Test
+    public void canGetPotentialProfit(){
+        shop.addStock(sheetMusic);
+        assertEquals(10, shop.getPotentialProfit(), 0.01);
+    }
+
+
 
 }
