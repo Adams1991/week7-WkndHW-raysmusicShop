@@ -15,15 +15,19 @@ public class SaxophoneTest {
     }
 
     @Test
-    public void play() {
+    public void canPlay() {
+        assertEquals("Sax Noise", saxophone.play());
     }
 
     @Test
-    public void getSaxType() {
+    public void canGetSaxType() {
+        assertEquals("Alto", saxophone.getSaxType());
     }
 
     @Test
-    public void setSaxType() {
+    public void canSetSaxType() {
+        saxophone.setSaxType("Soprano");
+        assertEquals("Soprano", saxophone.getSaxType());
     }
 
 
