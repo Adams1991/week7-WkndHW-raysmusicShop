@@ -19,4 +19,7 @@ public class Shop {
     }
 
 
+    public int getStockAmount() {
+        return stock.size();
+    }
 }

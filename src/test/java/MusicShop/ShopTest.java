@@ -27,4 +27,9 @@ public class ShopTest {
     public void canGetTill() {
         assertEquals(300, shop.getTill(), 0.01);
     }
+
+    @Test
+    public void canGetStockAmount(){
+        assertEquals(0, shop.getStockAmount());
+    }
 }
