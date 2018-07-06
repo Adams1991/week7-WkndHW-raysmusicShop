@@ -17,4 +17,21 @@ public abstract class SellableItem implements ISell {
     public double calculateMarkup() {
         return sellPrice - costPrice;
     }
+
+    public double getCostPrice() {
+        return costPrice;
+    }
+
+    public double getSellPrice() {
+        return sellPrice;
+    }
+
+    public void setCostPrice(double costPrice) {
+        this.costPrice = costPrice;
+    }
+
+    public void setSellPrice(double sellPrice) {
+        this.sellPrice = sellPrice;
+    }
+
 }
