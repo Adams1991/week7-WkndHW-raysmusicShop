@@ -80,4 +80,16 @@ public class SaxophoneTest {
 
 
 
+    @Test
+    public void canGetItemId(){
+        assertEquals(1, saxophone.getItemId());
+    }
+
+    @Test
+    public void canSetItemId(){
+        saxophone.setItemId(40);
+        assertEquals(40, saxophone.getItemId());
+    }
+
+
 }

@@ -82,5 +82,16 @@ public class GuitarTest {
         assertEquals(40.00, guitar.getSellPrice(), 0.01);
     }
 
+    @Test
+    public void canGetItemId(){
+        assertEquals(1, guitar.getItemId());
+    }
+
+    @Test
+    public void canSetItemId(){
+        guitar.setItemId(40);
+        assertEquals(40, guitar.getItemId());
+    }
+
 
 }

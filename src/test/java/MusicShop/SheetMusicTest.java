@@ -62,4 +62,15 @@ public class SheetMusicTest {
         sheetMusic.setSellPrice(40.00);
         assertEquals(40.00, sheetMusic.getSellPrice(), 0.01);
     }
+
+    @Test
+    public void canGetItemId(){
+        assertEquals(1, sheetMusic.getItemId());
+    }
+
+    @Test
+    public void canSetItemId(){
+        sheetMusic.setItemId(40);
+        assertEquals(40, sheetMusic.getItemId());
+    }
 }
