@@ -24,7 +24,7 @@ public class Shop {
         return stock.size();
     }
 
-    public void addStock(SellableItem item) {
+    public void addStockForSelling (SellableItem item) {
         stock.add(item);
     }
 
@@ -46,4 +46,19 @@ public class Shop {
     public int getRecommendationStockAmount() {
         return recommendationList.size();
     }
+
+    public void addAccessoryForRecommendation (SellableAccessory item) {
+        recommendationList.add(item);
+    }
+
+    public ArrayList getAccessoryRecommendation(SellableInstrument item) {
+        ArrayList recommendedItems = new ArrayList();
+        for (SellableAccessory recommendedItem : recommendationList ){
+            if (recommendedItem.getGroupType() == item.getGroupType())
+                recommendedItems.add(recommendedItem);
+        }
+        return recommendedItems;
+    }
+
+    
 }
