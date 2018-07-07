@@ -13,12 +13,12 @@ public class ShopTest {
     Shop shop;
     Guitar guitar;
     SheetMusic sheetMusic;
-    ArrayList shops;
+    ArrayList stock;
 
     @Before
     public void setUp() {
-       shops = new ArrayList();
-       shop = new Shop( shops,300);
+       stock = new ArrayList();
+       shop = new Shop( stock,300, stock);
        guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6);
        sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
     }
@@ -71,6 +71,13 @@ public class ShopTest {
         shop.addStock(sheetMusic);
         shop.removeStock(sheetMusic);
         assertEquals(320, shop.getTill(), 0.01);
+    }
+
+    @Test
+    public void canGetAccessoryRecommendationsFromInstrument(){
+        shop.addStock(sheetMusic);
+        shop.addStock(guitar);
+        assertEquals(sheetMusic, shop.getAccessoryRecommendation(guitar));
     }
 
 

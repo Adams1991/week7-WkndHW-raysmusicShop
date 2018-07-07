@@ -6,11 +6,13 @@ import java.util.ArrayList;
 public class Shop {
 
     private ArrayList<SellableItem> stock;
+    private ArrayList<SellableAccessory> recommendationList;
     private double till;
 
-    public Shop(ArrayList<SellableItem> stock, double till){
+    public Shop(ArrayList<SellableItem> stock, double till, ArrayList<SellableAccessory> recommendationList){
         this.stock = stock;
         this.till = till;
+        this.recommendationList = recommendationList;
     }
 
     public double getTill() {
@@ -39,4 +41,6 @@ public class Shop {
         }
         return potentialProfit;
     }
+
+
 }
