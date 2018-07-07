@@ -20,7 +20,7 @@ public class Shop {
     }
 
 
-    public int getStockAmount() {
+    public int getSellingStockAmount() {
         return stock.size();
     }
 
@@ -43,4 +43,7 @@ public class Shop {
     }
 
 
+    public int getRecommendationStockAmount() {
+        return recommendationList.size();
+    }
 }

@@ -14,11 +14,13 @@ public class ShopTest {
     Guitar guitar;
     SheetMusic sheetMusic;
     ArrayList stock;
+    ArrayList recommendationStock;
 
     @Before
     public void setUp() {
        stock = new ArrayList();
-       shop = new Shop( stock,300, stock);
+       recommendationStock = new ArrayList();
+       shop = new Shop( stock,300, recommendationStock);
        guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6);
        sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
     }
@@ -29,34 +31,34 @@ public class ShopTest {
     }
 
     @Test
-    public void canGetStockAmount(){
-        assertEquals(0, shop.getStockAmount());
+    public void canGetStockAmountFromGenericStock(){
+        assertEquals(0, shop.getSellingStockAmount());
     }
 
     @Test
-    public void canAddStock__instrument(){
+    public void canAddStockForSelling__instrument(){
         shop.addStock(guitar);
-        assertEquals(1, shop.getStockAmount());
+        assertEquals(1, shop.getSellingStockAmount());
     }
 
     @Test
-    public void canAddStock__accessory(){
+    public void canAddStockForSelling__accessory(){
         shop.addStock(sheetMusic);
-        assertEquals(1, shop.getStockAmount());
+        assertEquals(1, shop.getSellingStockAmount());
     }
 
     @Test
     public void canRemoveStock__instrument(){
         shop.addStock(guitar);
         shop.removeStock(guitar);
-        assertEquals(0, shop.getStockAmount());
+        assertEquals(0, shop.getSellingStockAmount());
     }
 
     @Test
     public void canRemoveStock__accessory(){
         shop.addStock(sheetMusic);
         shop.removeStock(sheetMusic);
-        assertEquals(0, shop.getStockAmount());
+        assertEquals(0, shop.getSellingStockAmount());
     }
 
     @Test
@@ -74,11 +76,17 @@ public class ShopTest {
     }
 
     @Test
-    public void canGetAccessoryRecommendationsFromInstrument(){
-        shop.addStock(sheetMusic);
-        shop.addStock(guitar);
-        assertEquals(sheetMusic, shop.getAccessoryRecommendation(guitar));
+    public void canGetStockAmountForRecommendations(){
+        assertEquals(0, shop.getRecommendationStockAmount());
     }
+
+
+//    @Test
+//    public void canGetAccessoryRecommendationsFromInstrument(){
+//        shop.addStock(sheetMusic);
+//        shop.addStock(guitar);
+//        assertEquals(sheetMusic, shop.getAccessoryRecommendation(guitar));
+//    }
 
 
 
