@@ -4,8 +4,8 @@ public abstract class SellableAccessory extends SellableItem {
 
     private GroupType groupType;
 
-    public SellableAccessory(double costPrice, double sellPrice, GroupType groupType) {
-        super(costPrice, sellPrice);
+    public SellableAccessory(double costPrice, double sellPrice, GroupType groupType, int itemId) {
+        super(costPrice, sellPrice, itemId);
         this.groupType = groupType;
     }
 

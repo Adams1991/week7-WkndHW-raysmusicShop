@@ -11,7 +11,7 @@ public class DrumStickTest {
 
     @Before
     public void setUp(){
-        drumStick= new DrumStick(20.50, 30.50, GroupType.PERCUSSION, MaterialType.PLASTIC );
+        drumStick= new DrumStick(20.50, 30.50, GroupType.PERCUSSION, MaterialType.PLASTIC, 100 );
     }
 
 
@@ -62,6 +62,17 @@ public class DrumStickTest {
     public void canSetSellPrice() {
         drumStick.setSellPrice(40.00);
         assertEquals(40.00, drumStick.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canGetItemId(){
+        assertEquals(100, drumStick.getItemId());
+    }
+
+    @Test
+    public void canSetItemId(){
+        drumStick.setItemId(40);
+        assertEquals(40, drumStick.getItemId());
     }
 
   

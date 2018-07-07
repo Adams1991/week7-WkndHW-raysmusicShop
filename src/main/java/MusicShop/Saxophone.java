@@ -4,8 +4,8 @@ public class Saxophone extends SellableInstrument {
 
     private String saxType;
 
-    public Saxophone(double costPrice, double sellPrice, MaterialType materialType, GroupType groupType, String saxType) {
-        super(costPrice, sellPrice, materialType, groupType);
+    public Saxophone(double costPrice, double sellPrice, MaterialType materialType, GroupType groupType, String saxType, int itemId) {
+        super(costPrice, sellPrice, materialType, groupType, itemId);
         this.saxType = saxType;
     }
 

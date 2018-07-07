@@ -11,7 +11,7 @@ public class SheetMusicTest {
 
     @Before
     public void setUp(){
-        sheetMusic= new SheetMusic(20.50, 30.50, GroupType.BRASSWIND, "Blackbird" );
+        sheetMusic= new SheetMusic(20.50, 30.50, GroupType.BRASSWIND, "Blackbird",1 );
     }
 
     @Test

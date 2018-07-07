@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void setUp(){
-        guitar= new Guitar(20.50, 30.50, MaterialType.WOOD, GroupType.STRING, 6 );
+        guitar= new Guitar(20.50, 30.50, MaterialType.WOOD, GroupType.STRING, 6, 1 );
     }
 
     @Test

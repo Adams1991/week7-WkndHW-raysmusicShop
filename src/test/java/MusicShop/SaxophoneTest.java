@@ -11,7 +11,7 @@ public class SaxophoneTest {
 
     @Before
     public void setUp(){
-         saxophone= new Saxophone(20.50, 30.50, MaterialType.BRASS, GroupType.BRASSWIND, "Alto" );
+         saxophone= new Saxophone(20.50, 30.50, MaterialType.BRASS, GroupType.BRASSWIND, "Alto", 1 );
     }
 
     @Test

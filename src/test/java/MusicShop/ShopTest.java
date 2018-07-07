@@ -24,10 +24,10 @@ public class ShopTest {
        stock = new ArrayList();
        recommendationStock = new ArrayList();
        shop = new Shop( stock,300, recommendationStock);
-       guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6);
-       sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
-       sheetMusic3 = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
-       sheetMusic2 = new SheetMusic(10,20, GroupType.PERCUSSION, "Black Betty");
+       guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6, 1);
+       sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
+       sheetMusic3 = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
+       sheetMusic2 = new SheetMusic(10,20, GroupType.PERCUSSION, "Black Betty", 1);
     }
 
     @Test
@@ -115,6 +115,14 @@ public class ShopTest {
         shop.addStockForSelling(sheetMusic2);
         ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
         assertEquals(false, shop.recommendedInStock(recommended));
+    }
+
+    @Test
+    public void canCheckRecommendedIsInStockNotTheExactItemAdded__true(){
+        shop.addAccessoryForRecommendation(sheetMusic);
+        shop.addStockForSelling(sheetMusic3);
+        ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
+        assertEquals(true , shop.recommendedInStock(recommended));
     }
 
 

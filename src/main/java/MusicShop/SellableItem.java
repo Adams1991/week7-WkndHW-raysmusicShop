@@ -6,10 +6,12 @@ public abstract class SellableItem implements ISell {
 
     private double costPrice;
     private double sellPrice;
+    private int itemId;
 
-    public SellableItem(double costPrice, double sellPrice) {
+    public SellableItem(double costPrice, double sellPrice, int itemId) {
         this.costPrice = costPrice;
         this.sellPrice = sellPrice;
+        this.itemId = itemId;
     }
 
 
@@ -35,4 +37,11 @@ public abstract class SellableItem implements ISell {
     }
 
 
+    public int getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(int itemId) {
+        this.itemId = itemId;
+    }
 }
