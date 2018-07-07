@@ -51,7 +51,7 @@ public class Shop {
         recommendationList.add(item);
     }
 
-    public ArrayList getAccessoryRecommendation(SellableInstrument item) {
+    public ArrayList getAccessoryRecommendationArray(SellableInstrument item) {
         ArrayList recommendedItems = new ArrayList();
         for (SellableAccessory recommendedItem : recommendationList ){
             if (recommendedItem.getGroupType() == item.getGroupType())
@@ -60,5 +60,17 @@ public class Shop {
         return recommendedItems;
     }
 
-    
+
+    public boolean recommendedInStock(ArrayList recommended) {
+        for (Object recommendedItem : recommended){
+            for (SellableItem stock : stock){
+                if (recommendedItem == stock){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }

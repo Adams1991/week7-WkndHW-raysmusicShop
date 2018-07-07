@@ -15,6 +15,7 @@ public class ShopTest {
     Guitar guitar;
     SheetMusic sheetMusic;
     SheetMusic sheetMusic2;
+    SheetMusic sheetMusic3;
     ArrayList stock;
     ArrayList recommendationStock;
 
@@ -25,6 +26,7 @@ public class ShopTest {
        shop = new Shop( stock,300, recommendationStock);
        guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6);
        sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
+       sheetMusic3 = new SheetMusic(10,20, GroupType.STRING, "Let It Be");
        sheetMusic2 = new SheetMusic(10,20, GroupType.PERCUSSION, "Black Betty");
     }
 
@@ -95,8 +97,24 @@ public class ShopTest {
     public void canGetAccessoryRecommendationsFromInstrument(){
         shop.addAccessoryForRecommendation(sheetMusic);
         shop.addAccessoryForRecommendation(sheetMusic2);
-        ArrayList recommended = shop.getAccessoryRecommendation(guitar);
+        ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
         assertEquals(1, recommended.size() );
+    }
+
+    @Test
+    public void canCheckRecommendedIsInStock__true(){
+        shop.addAccessoryForRecommendation(sheetMusic);
+        shop.addStockForSelling(sheetMusic);
+        ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
+        assertEquals(true , shop.recommendedInStock(recommended));
+    }
+
+    @Test
+    public void canCheckRecommendedIsInStock__false(){
+        shop.addAccessoryForRecommendation(sheetMusic2);
+        shop.addStockForSelling(sheetMusic2);
+        ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
+        assertEquals(false, shop.recommendedInStock(recommended));
     }
 
 

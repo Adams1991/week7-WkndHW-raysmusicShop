@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
-              <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+            <state relative-caret-position="338">
+              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
               <folding>
                 <element signature="e#811#812#0" expanded="true" />
                 <element signature="e#866#867#0" expanded="true" />
@@ -665,18 +665,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 37m 20s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 38m 36s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 40m 43s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 42m 45s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.06 at 15h 45m 10s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
@@ -693,6 +681,18 @@
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 17h 44m 23s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 17h 53m 31s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 17h 54m 59s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 13m 07s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 13m 57s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -854,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/SellableItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/SellableAccessory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1001,10 +993,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/SellableItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
-          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
@@ -1022,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        <state relative-caret-position="338">
+          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#811#812#0" expanded="true" />
             <element signature="e#866#867#0" expanded="true" />
