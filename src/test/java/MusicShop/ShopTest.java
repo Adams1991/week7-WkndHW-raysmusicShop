@@ -16,14 +16,14 @@ public class ShopTest {
     SheetMusic sheetMusic;
     SheetMusic sheetMusic2;
     SheetMusic sheetMusic3;
-    ArrayList stock;
+    ArrayList saleStock;
     ArrayList recommendationStock;
 
     @Before
     public void setUp() {
-       stock = new ArrayList();
+       saleStock = new ArrayList();
        recommendationStock = new ArrayList();
-       shop = new Shop( stock,300, recommendationStock);
+       shop = new Shop( saleStock,300, recommendationStock);
        guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6, 34);
        sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
        sheetMusic3 = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
@@ -55,14 +55,14 @@ public class ShopTest {
     @Test
     public void canRemoveStock__instrument(){
         shop.addStockForSelling(guitar);
-        shop.removeStock(guitar);
+        shop.sell(guitar);
         assertEquals(0, shop.getSellingStockAmount());
     }
 
     @Test
     public void canRemoveStock__accessory(){
         shop.addStockForSelling(sheetMusic);
-        shop.removeStock(sheetMusic);
+        shop.sell(sheetMusic);
         assertEquals(0, shop.getSellingStockAmount());
     }
 
@@ -74,9 +74,9 @@ public class ShopTest {
     }
 
     @Test
-    public void tillIncreasesWhenStockRemoved(){
+    public void tillIncreasesWhenStockSold(){
         shop.addStockForSelling(sheetMusic);
-        shop.removeStock(sheetMusic);
+        shop.sell(sheetMusic);
         assertEquals(320, shop.getTill(), 0.01);
     }
 

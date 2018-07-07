@@ -5,12 +5,12 @@ import java.util.ArrayList;
 
 public class Shop {
 
-    private ArrayList<SellableItem> stock;
+    private ArrayList<SellableItem> saleStock;
     private ArrayList<SellableAccessory> recommendationList;
     private double till;
 
-    public Shop(ArrayList<SellableItem> stock, double till, ArrayList<SellableAccessory> recommendationList){
-        this.stock = stock;
+    public Shop(ArrayList<SellableItem> saleStock, double till, ArrayList<SellableAccessory> recommendationList){
+        this.saleStock = saleStock;
         this.till = till;
         this.recommendationList = recommendationList;
     }
@@ -21,22 +21,22 @@ public class Shop {
 
 
     public int getSellingStockAmount() {
-        return stock.size();
+        return saleStock.size();
     }
 
     public void addStockForSelling (SellableItem item) {
-        stock.add(item);
+        saleStock.add(item);
     }
 
-    public void removeStock(SellableItem item) {
-        stock.remove(item);
+    public void sell(SellableItem item) {
+        saleStock.remove(item);
         till += item.getSellPrice();
     }
 
 
     public double getPotentialProfit() {
         double potentialProfit = 0;
-        for (SellableItem item : stock ){
+        for (SellableItem item : saleStock ){
             potentialProfit += item.calculateMarkup();
         }
         return potentialProfit;
@@ -63,8 +63,8 @@ public class Shop {
 
     public boolean recommendedInStock(ArrayList<Integer> recommended) {
         for (Integer recommendedItem : recommended){
-            for (SellableItem stock : stock){
-                if (recommendedItem == stock.getItemId()){
+            for (SellableItem saleStock : saleStock){
+                if (recommendedItem == saleStock.getItemId()){
                     return true;
                 }
             }

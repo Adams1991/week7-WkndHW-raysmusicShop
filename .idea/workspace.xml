@@ -25,15 +25,15 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="25" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
               <folding>
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#2303#2304#0" expanded="true" />
-                <element signature="e#2371#2372#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,19 +42,19 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,11 +80,12 @@
       <find>BRASS</find>
       <find>saxophone</find>
       <find>ISell</find>
-      <find>stock</find>
       <find>addStockInstrument</find>
       <find>drumStick</find>
       <find>guitar</find>
       <find>sheetMusic</find>
+      <find>stock</find>
+      <find>Salestock</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -97,6 +98,8 @@
       <replace>guitar</replace>
       <replace>sheetMusic</replace>
       <replace>saxophone</replace>
+      <replace>Salestock</replace>
+      <replace>saleStock</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/Behaviours</dir>
@@ -668,15 +671,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 13m 57s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 14m 13s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 18m 14s.xml">
-      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 25m 15s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
@@ -698,6 +692,15 @@
     <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 32m 28s.xml">
       <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 36m 07s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 38m 47s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_raysMusicExchange_test - 2018.07.07 at 18h 40m 20s.xml">
+      <configuration name="All in raysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -712,7 +715,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1019,34 +1022,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicShop/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
           <folding>
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MusicShop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
           </folding>
         </state>
       </provider>
