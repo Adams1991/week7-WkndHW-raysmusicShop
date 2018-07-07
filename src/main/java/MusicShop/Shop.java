@@ -52,19 +52,19 @@ public class Shop {
     }
 
     public ArrayList getAccessoryRecommendationArray(SellableInstrument item) {
-        ArrayList recommendedItems = new ArrayList();
+        ArrayList recommendedItems = new ArrayList<Integer>();
         for (SellableAccessory recommendedItem : recommendationList ){
             if (recommendedItem.getGroupType() == item.getGroupType())
-                recommendedItems.add(recommendedItem);
+                recommendedItems.add(recommendedItem.getItemId());
         }
         return recommendedItems;
     }
 
 
-    public boolean recommendedInStock(ArrayList recommended) {
-        for (Object recommendedItem : recommended){
+    public boolean recommendedInStock(ArrayList<Integer> recommended) {
+        for (Integer recommendedItem : recommended){
             for (SellableItem stock : stock){
-                if (recommendedItem == stock){
+                if (recommendedItem == stock.getItemId()){
                     return true;
                 }
             }
