@@ -93,4 +93,14 @@ public class Shop {
         }
         return "This item isn't in stock";
     }
+
+    public void addAccessoryToStock(SellableItem item) {
+        addStockForSelling(item);
+        addAccessoryForRecommendation((SellableAccessory) (item));
+    }
+
+    public void addInstrumentToStock(SellableItem item) {
+        addStockForSelling(item);
+        addStockForDemonstration((SellableInstrument) (item));
+    }
 }

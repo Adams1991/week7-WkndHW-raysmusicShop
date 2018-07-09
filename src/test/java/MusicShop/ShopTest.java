@@ -139,9 +139,23 @@ public class ShopTest {
     }
 
     @Test
-    public void canDemonstrateInstrument(){
+    public void canDemonstrateInstrument__inStock(){
         shop.addStockForDemonstration(guitar);
         assertEquals("Guitar Noise", shop.demonstrateItem(34));
+    }
+
+    @Test
+    public void canAddToRecommendationAndStockAtTheSameTime(){
+        shop.addAccessoryToStock(sheetMusic);
+        assertEquals(1, shop.getRecommendationStockAmount());
+        assertEquals(1, shop.getSellingStockAmount());
+    }
+
+    @Test
+    public void canAddToDemonstrationAndStockAtTheSameTime(){
+        shop.addInstrumentToStock(guitar);
+        assertEquals(1, shop.getDemonstrationListAmount());
+        assertEquals(1, shop.getSellingStockAmount());
     }
 
 
