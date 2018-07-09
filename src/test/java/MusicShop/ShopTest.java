@@ -132,6 +132,11 @@ public class ShopTest {
         assertEquals(0, shop.getDemonstrationListAmount());
     }
 
+    @Test
+    public void canAddStockForDemonstration(){
+        shop.addStockForDemonstration(guitar);
+        assertEquals(1, shop.getDemonstrationListAmount());
+    }
 
 
 

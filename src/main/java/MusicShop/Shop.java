@@ -79,4 +79,10 @@ public class Shop {
     public int getDemonstrationListAmount() {
         return this.demonstrationList.size();
     }
+
+    public void addStockForDemonstration(SellableInstrument item) {
+        demonstrationList.add(item);
+    }
+
+
 }
