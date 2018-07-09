@@ -85,4 +85,12 @@ public class Shop {
     }
 
 
+    public String demonstrateItem(int itemId) {
+        for (SellableInstrument instrument : demonstrationList) {
+            if (itemId == instrument.getItemId()) {
+                return instrument.play();
+            }
+        }
+        return "This item isn't in stock";
+    }
 }

@@ -138,6 +138,11 @@ public class ShopTest {
         assertEquals(1, shop.getDemonstrationListAmount());
     }
 
+    @Test
+    public void canDemonstrateInstrument(){
+        shop.addStockForDemonstration(guitar);
+        assertEquals("Guitar Noise", shop.demonstrateItem(34));
+    }
 
 
 }
