@@ -7,12 +7,15 @@ public class Shop {
 
     private ArrayList<SellableItem> saleStock;
     private ArrayList<SellableAccessory> recommendationList;
+    private ArrayList<SellableInstrument> demonstrationList;
     private double till;
 
-    public Shop(ArrayList<SellableItem> saleStock, double till, ArrayList<SellableAccessory> recommendationList){
+    public Shop(ArrayList<SellableItem> saleStock, double till, ArrayList<SellableAccessory> recommendationList,
+                ArrayList<SellableInstrument> demonstrationList){
         this.saleStock = saleStock;
         this.till = till;
         this.recommendationList = recommendationList;
+        this.demonstrationList = demonstrationList;
     }
 
     public double getTill() {
@@ -73,4 +76,7 @@ public class Shop {
     }
 
 
+    public int getDemonstrationListAmount() {
+        return this.demonstrationList.size();
+    }
 }

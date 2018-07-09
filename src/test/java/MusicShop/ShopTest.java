@@ -18,12 +18,14 @@ public class ShopTest {
     SheetMusic sheetMusic3;
     ArrayList saleStock;
     ArrayList recommendationStock;
+    ArrayList demonstrationList;
 
     @Before
     public void setUp() {
        saleStock = new ArrayList();
        recommendationStock = new ArrayList();
-       shop = new Shop( saleStock,300, recommendationStock);
+       demonstrationList = new ArrayList();
+       shop = new Shop( saleStock,300, recommendationStock, demonstrationList);
        guitar = new Guitar(20, 30, MaterialType.WOOD, GroupType.STRING, 6, 34);
        sheetMusic = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
        sheetMusic3 = new SheetMusic(10,20, GroupType.STRING, "Let It Be", 1);
@@ -124,6 +126,12 @@ public class ShopTest {
         ArrayList recommended = shop.getAccessoryRecommendationArray(guitar);
         assertEquals(true , shop.recommendedInStock(recommended));
     }
+
+    @Test
+    public void canGetStockAmountForDemonstration(){
+        assertEquals(0, shop.getDemonstrationListAmount());
+    }
+
 
 
 
